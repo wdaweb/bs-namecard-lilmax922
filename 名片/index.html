@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="/css/bootstrap.css">
+  <title>野原新之助-自我介紹卡片</title>
+  <style>
+    body {
+      width: 100vw;
+      height: 100vh;
+      overflow: hidden;
+    }
+
+    .card {
+      width: 100%;
+      height: 100%;
+      background: rgb(239, 193, 200);
+    }
+
+
+    img {
+      object-fit: cover;
+      object-position: center;
+    }
+
+    @media(min-width: 576px) {
+      body {
+        background: url('https://inews.gtimg.com/newsapp_bt/0/13814141197/1000') no-repeat center/cover;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+
+      .card {
+        max-width: 80%;
+        height: auto;
+        border: 1px solid #000;
+        box-shadow: 0 0 3px #000;
+        overflow: hidden;
+        background: #fff;
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <div class="card mb-3 w-100 ">
+    <div class="row g-0">
+      <div class="col-sm-4">
+        <img src="./小新.png" class="card-img-top rounded-start h-100">
+      </div>
+      <div class="col-sm-8">
+        <div class="card-body">
+          <h1 class="card-title text-center text-bg-danger ">野原新之助</h1>
+          <h5 class="card-text fw-bold mt-4">
+            我叫野原新之助，今年5歲，家裡有廣志、美冴、小葵跟小白，喜歡巧克比還有年輕大姐姐，最好是穿泳裝的，最討厭吃青椒、洋蔥和紅蘿蔔，每天準時收看動感超人。
+          </h5>
+          <div class="info">
+            <h6 class="card-text mt-5">*&nbsp; 春日部防衛隊隊員之一</h6>
+            <h6 class="card-text">*&nbsp; 就讀雙葉幼稚園向日葵班</h6>
+            <h6 class="card-text">*&nbsp; 最愛的人是大原娜娜子</h6>
+            <h6 class="card-text">*&nbsp; 喜歡看動感超人、剛達姆機器人和魔法少女可愛P</h6>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+
+</html>
